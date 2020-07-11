@@ -1,5 +1,5 @@
 let userInput: unknown;
-let userName: string;
+let userName1: string;
 
 userInput = 4;
 userInput = 'String';
@@ -9,7 +9,7 @@ userInput = 'String';
 
 //userInput now definitly type string so assignable to userName (type string)
 if (typeof userInput === 'string') {
-  userName = userInput;
+  userName1 = userInput;
 }
 
 function generateError(message: string, code: number): never {

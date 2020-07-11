@@ -4,13 +4,13 @@ enum Role {
   AUTHOR,
 }
 
-const person = {
+const person1 = {
   name: 'Alex',
   age: 32,
   hobbies: ['Sports', 'Cooking'],
   role: Role.ADMIN,
 };
 
-if (person.role === Role.ADMIN) {
+if (person1.role === Role.ADMIN) {
   console.log('is admin');
 }
