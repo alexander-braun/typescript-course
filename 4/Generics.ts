@@ -79,7 +79,6 @@ numberStorage.getItems();
 console.log(numberStorage);
 
 //Generic utility types
-
 //Partial
 
 interface CourseGoal {
@@ -103,5 +102,6 @@ function createCourseGoal(
 //Readonly
 
 const names1: Readonly<string[]> = ['Max', 'Sports'];
-names1.push('Manu');
-names1.pop();
+//Not possible:
+//names1.push('Manu');
+//names1.pop();
